@@ -1,0 +1,9 @@
+application: python_ex
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: python_ch1.py
